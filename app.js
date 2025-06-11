@@ -1,5 +1,5 @@
 const app = document.getElementById("app");
-const API_BASE = "https://asset-management-backend-1lqh.onrender.com"; // update this after deployment
+const API_BASE = "#"; // update this after deployment
 
 const renderLogin = () => {
   app.innerHTML = `
