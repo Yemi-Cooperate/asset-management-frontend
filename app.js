@@ -1,5 +1,5 @@
 const app = document.getElementById("app");
-const API_BASE = "https://your-deployed-backend.onrender.com"; // ← replace with your backend URL
+const API_BASE = "https://asset-management-backend-1-l4ne.onrender.com"; // ← replace with your backend URL
 
 const renderDashboard = async () => {
   const res = await fetch(`${API_BASE}/api/assets`);
